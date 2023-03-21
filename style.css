@@ -1,0 +1,467 @@
+
+body{
+     background: rgb(243, 240, 240);
+     margin: 0;
+     padding: 0;
+     
+}
+
+*{
+     box-sizing: border-box;
+}
+
+
+/* styling the latest news div*/
+.news{
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+     justify-content: space-between;
+     padding-top: 20px;
+     padding-bottom: 50px;
+     
+}
+.title{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-size: 40px;
+}
+
+.title h2{
+     margin-bottom: 10px;
+     margin-top: 0;
+}
+
+.ligne{
+     width: 100px;
+     border: 1px solid black;
+}
+
+.cards{
+     display: flex;
+     justify-content: center;
+     gap: 50px;
+     
+}
+
+.card {
+     display: flex;
+     flex-direction: column;
+     width: 300px;
+
+     background-color: white;
+}
+
+.card img{
+     width: 100%;
+     height: 200px;
+
+}
+
+.textcard{
+     display: flex;
+     gap: 70px;
+     color: #312d2d9a;
+     padding-left: 10px;
+}
+
+.btnsCard {
+     display: flex;
+     gap: 20px;
+     padding: 10px;
+}
+
+.destination{
+     color: rgb(0, 170, 255);
+     font-weight: 700;
+}
+
+.destinationDescription{
+     color: rgb(30, 30, 30);
+}
+
+.descriptionCard{
+     padding-left: 10px;
+}
+
+button{
+     cursor: pointer;
+}
+
+.btnNews{
+     display: flex;
+     justify-content: center;
+}
+
+.btnNews button{
+     color: rgb(0, 170, 255);
+     border: 1px solid rgb(0, 170, 255);
+     width: 150px;
+     height: 30px;
+     font-size: 15px;
+     font-weight: 700;
+}
+
+.btnNews button:hover{
+     background-color: rgb(0, 170, 255);
+     color: white;
+  
+}
+
+/* styling the promo div*/
+
+.promo{
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     background: rgb(32, 32, 108);
+}
+
+.promoText{
+     color: white;
+     font-size: 30px;
+     font-weight: 700;
+}
+
+.promo button{
+     width: 150px;
+     height: 35px;
+     font-size: 15px;
+     color: white;
+     background-color: rgb(0, 170, 255);
+     border: none;
+     margin-top: 32px;
+}
+
+.summer{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 450px;
+     background-image: url(img4.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+}
+
+.text1{
+     color: white;
+     font-size: 20px;
+     
+}
+
+.text2{
+     color: white;
+     font-size: 40px;
+     font-weight: 700;
+     margin: 0px;
+}
+
+.readMore{
+     color: white;
+     background-color: rgb(255, 85, 0);
+     border: none;
+     width: 150px;
+     height: 30px;
+     font-size: 15px;
+     font-weight: 700;
+     margin-top: 20px;
+
+}
+
+/*footer*/
+
+.footer{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background: rgb(32, 32, 108);
+     padding: 10px;
+}
+
+.logoFooter img{
+     width: 150px;
+     height: 100px;
+     background-image: none;
+}
+
+.copyright{
+     color: white;
+     margin: 0;
+}
+
+/* our Services */
+.services{
+     display: flex;
+     height: 400px;
+     width: 100%;
+ }
+
+.imgServices{
+     width: 40%;
+}
+
+.imageService{
+     width: 100%;
+     height: 100%;
+ }
+
+ .ourServices{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     flex-wrap: wrap;
+     padding-bottom: 20px;
+     padding-right: 20px;
+     width: 60%;
+     background-color: white;
+ }
+
+ .lineServices{
+     border: 1px solid black;
+     width: 40px;
+ }
+
+ .title1{
+     font-size: 30px;
+     font-weight: 700;
+ }
+
+ .options{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: right;
+     width: 70%;
+     height: 70%;
+ }
+
+ .optionsName{
+     display: flex;
+     width: 50%;
+     padding: 10px;
+ }
+
+ .icons{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 20%;
+     font-size: 40px;
+     color: orangered;
+     padding-right: 20px;
+ }
+ 
+ .titleOptions{
+     font-size: 15px;
+     font-weight: 700;
+ }
+
+ .desciptionOptions{
+     font-size: 12px;
+ }
+
+ .titleServices{
+     margin-right: 380px;
+     
+ }
+
+ /* voyages */
+
+ .allDestinations{
+     display: flex;
+     justify-content: space-evenly;
+     margin-bottom: 40px;
+ }
+
+ .destinationPic{
+     width: 300px;
+     height: 250px;
+ }
+
+ .price{
+     background-color: orange;
+     color: white;
+     width: 40%;
+     height: 30px;
+     position: absolute;
+     bottom: 70px;
+ }
+
+ .textPrice{
+     position: relative;
+     left: 15px;
+     bottom: 9px;
+ }
+
+
+ .destinationsOption{
+     position: relative;
+     background-color: white;
+ }
+
+ .directions{
+     padding-left: 10px;
+ }
+
+ /******* Home ***********/
+
+.home{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 100px;
+     height: 650px;
+     background-image: url(home.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     padding-bottom: 40px;
+     margin-bottom: 20px;
+     padding-top: 80px;
+}
+
+.homeTitle{
+     width: 40%;
+
+
+}
+
+.home-text1{
+     font-size: 40px;
+     font-weight: 900;
+     color: white;
+}
+
+.home-text2{
+     font-size: 20px;
+     font-weight: 500;
+     color: white;
+}
+.learn-more{
+     width: 150px;
+     height: 40px;
+     font-size: 15px;
+     font-weight: 700;
+     color: white;
+     background: none;
+     border: 1px solid white;
+}
+
+.learn-more:hover{
+     background-color: white;
+     color: black;
+}
+
+.departure-info{
+     display: flex;
+     gap: 20px;
+
+}
+
+.picker{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-color: rgb(32, 32, 108);
+     opacity: 0.9;
+     width: 28%;
+     height: 80%;
+     
+     
+}
+
+.picker-title{
+     color: white;
+     text-transform: capitalize;
+     font-size: 20px;
+     font-weight: 700;
+     margin-bottom: 20px;
+     
+}
+
+.text-picker{
+     color: white;
+
+}
+
+.text-des{
+     margin-bottom: 5px;
+}
+
+.input-picker{
+     height: 35px;
+     width: 300px;
+}
+
+.input-dep{
+     height: 35px;
+     width: 140px;
+     margin-top: 0;
+}
+
+.btn-search{
+     height: 35px;
+     width: 300px;
+     margin-top: 10px;
+     margin-bottom: 30px;
+     font-size: 15px;
+     color: white;
+     background-color: rgb(0, 170, 255);
+     border: none;
+}
+
+.text-dep{
+     margin-bottom: 5px;
+}
+
+/*********** navigation **************/
+
+.nav-bar{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+     background: rgb(32, 32, 108);
+     position: fixed;
+     width: 100%;
+     z-index: 1;
+}
+
+.nav-list{
+     display: flex;
+     gap: 25px;
+     list-style: none;
+     text-decoration: none;
+     
+}
+.nav-list li{
+     width: 100px;
+     height: 30px;
+     text-align: center;
+     padding-top: 7px;
+     cursor: pointer;
+
+     
+}
+
+.nav-list li a{
+     text-decoration: none;
+     color: white;
+     
+}
+
+.nav-list li:hover{
+     background-color: rgb(0, 170, 255);
+     color: white;
+     
+}
+
+
+.nav-bar img{
+     width: 100px;
+     height: 70px;
+     background-image: none;
+}
